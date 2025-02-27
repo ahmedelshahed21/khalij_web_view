@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:khelj/app/khelj_app.dart';
+import 'package:khalij/app/khalij_app.dart';
 
 
 
 void main() {
-  runApp(const KheljApp());
+  runApp(const KhalijApp());
 }

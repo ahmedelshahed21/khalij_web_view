@@ -3,14 +3,14 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-class KheljWebView extends StatefulWidget {
-  const KheljWebView({super.key});
+class KhalijWebView extends StatefulWidget {
+  const KhalijWebView({super.key});
 
   @override
-  State<KheljWebView> createState() => _KheljWebViewState();
+  State<KhalijWebView> createState() => _KhalijWebViewState();
 }
 
-class _KheljWebViewState extends State<KheljWebView> {
+class _KhalijWebViewState extends State<KhalijWebView> {
   bool _isLoading = true;
   late final WebViewController _controller;
 

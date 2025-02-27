@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:khelj/views/khelj_web_view.dart';
+import 'package:khalij/views/khalij_web_view.dart';
 
-class KheljApp extends StatelessWidget {
-  const KheljApp({super.key});
+
+class KhalijApp extends StatelessWidget {
+  const KhalijApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: KheljWebView(),
+      home: KhalijWebView(),
     );
   }
 }
